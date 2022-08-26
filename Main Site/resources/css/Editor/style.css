@@ -1,0 +1,60 @@
+
+.editorPage{
+    padding: 0px 20px;
+    margin:10px auto;
+    width:100vw;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    min-height: 100vh;
+    z-index: 100;
+}
+
+.editorPage #editor{
+    min-height: 100vh;
+    box-sizing: border-box;
+    width: 75vw;
+}
+
+.editorPage #usersBox{
+    width: 20vw;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    row-gap: 5px;
+    overflow-y: scroll;
+    box-sizing: border-box;
+}
+
+.editorPage #usersBox .member{
+    border-radius: 3%;
+    background-color: #ededed61;
+    width: 100%;
+    height: 100px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-shadow: -17px 1px 0px 0px white;
+}
+.editorPage #usersBox .member input{
+    border-radius: 50%;
+    padding: 0px;
+    box-sizing: border-box;
+    border: none;
+}
+.editorPage #usersBox  button{
+    align-self: center;
+    color: whitesmoke;
+    border: none;
+    border-radius: 5%;
+    background-color: #198eea;
+    font-size: 15px;
+    height: 30px;
+    text-align: center;
+    width: 50%;
+
+}
